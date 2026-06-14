@@ -1,0 +1,19 @@
+{
+  "source_id": "conflicting_source_1",
+  "source_type": "web",
+  "title": "AI Market Growth Outlook (MarketWatch Analysis)",
+  "url": "https://marketwatch.example.com/ai-growth-outlook",
+  "document_name": null,
+  "publication_date": "2025-05-10",
+  "credibility": 0.85,
+  "assigned_agent": "web_research_agent",
+  "claims": [
+    {
+      "topic": "market_growth_rate",
+      "claim": "Projected annual growth rate of the AI market",
+      "value": "18%",
+      "evidence_excerpt": "The global AI market is projected to grow at an 18% CAGR through 2030, based on observed enterprise spend.",
+      "confidence": 0.82
+    }
+  ]
+}

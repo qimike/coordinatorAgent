@@ -1,0 +1,44 @@
+{
+  "sequential": {
+    "mode": "sequential",
+    "total_duration": 1.015381,
+    "tasks": [
+      {
+        "agent": "web_research_agent",
+        "start": 73557.725101,
+        "end": 73558.231357,
+        "duration": 0.506257
+      },
+      {
+        "agent": "document_analysis_agent",
+        "start": 73558.231381,
+        "end": 73558.740441,
+        "duration": 0.50906
+      }
+    ]
+  },
+  "parallel": {
+    "mode": "parallel",
+    "total_duration": 0.506653,
+    "tasks": [
+      {
+        "agent": "document_analysis_agent",
+        "start": 73558.741366,
+        "end": 73559.244225,
+        "duration": 0.502859
+      },
+      {
+        "agent": "web_research_agent",
+        "start": 73558.741167,
+        "end": 73559.246773,
+        "duration": 0.505606
+      }
+    ]
+  },
+  "comparison": {
+    "sequential_duration": 1.015381,
+    "parallel_duration": 0.506653,
+    "time_saved": 0.508728,
+    "percentage_improvement": 50.1
+  }
+}

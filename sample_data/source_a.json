@@ -1,0 +1,24 @@
+{
+  "source_id": "source_a",
+  "source_type": "web",
+  "title": "Global AI Market Trends 2025",
+  "url": "https://techinsights.example.com/ai-market-2025",
+  "document_name": null,
+  "publication_date": "2025-04-15",
+  "credibility": 0.88,
+  "assigned_agent": "web_research_agent",
+  "claims": [
+    {
+      "topic": "enterprise_adoption",
+      "claim": "Enterprise AI adoption is accelerating",
+      "evidence_excerpt": "72% of enterprises increased AI spending in 2025, up from 55% in 2024.",
+      "confidence": 0.9
+    },
+    {
+      "topic": "genai_growth",
+      "claim": "Generative AI is the fastest-growing market segment",
+      "evidence_excerpt": "Generative AI workloads grew roughly 3x year-over-year across major cloud providers.",
+      "confidence": 0.85
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "claim_id": "conflicting_source_1_claim_1",
+    "content": {
+      "claim": "Projected annual growth rate of the AI market",
+      "evidence_excerpt": "The global AI market is projected to grow at an 18% CAGR through 2030, based on observed enterprise spend.",
+      "topic": "market_growth_rate",
+      "value": "18%"
+    },
+    "metadata": {
+      "agent": "web_research_agent",
+      "source": "AI Market Growth Outlook (MarketWatch Analysis)",
+      "source_id": "conflicting_source_1",
+      "source_url": "https://marketwatch.example.com/ai-growth-outlook",
+      "source_type": "web",
+      "publication_date": "2025-05-10",
+      "credibility": 0.85,
+      "confidence": 0.82
+    }
+  },
+  {
+    "claim_id": "source_a_claim_1",
+    "content": {
+      "claim": "Enterprise AI adoption is accelerating",
+      "evidence_excerpt": "72% of enterprises increased AI spending in 2025, up from 55% in 2024.",
+      "topic": "enterprise_adoption",
+      "value": null
+    },
+    "metadata": {
+      "agent": "web_research_agent",
+      "source": "Global AI Market Trends 2025",
+      "source_id": "source_a",
+      "source_url": "https://techinsights.example.com/ai-market-2025",
+      "source_type": "web",
+      "publication_date": "2025-04-15",
+      "credibility": 0.88,
+      "confidence": 0.9
+    }
+  },
+  {
+    "claim_id": "source_a_claim_2",
+    "content": {
+      "claim": "Generative AI is the fastest-growing market segment",
+      "evidence_excerpt": "Generative AI workloads grew roughly 3x year-over-year across major cloud providers.",
+      "topic": "genai_growth",
+      "value": null
+    },
+    "metadata": {
+      "agent": "web_research_agent",
+      "source": "Global AI Market Trends 2025",
+      "source_id": "source_a",
+      "source_url": "https://techinsights.example.com/ai-market-2025",
+      "source_type": "web",
+      "publication_date": "2025-04-15",
+      "credibility": 0.88,
+      "confidence": 0.85
+    }
+  },
+  {
+    "claim_id": "conflicting_source_2_claim_1",
+    "content": {
+      "claim": "Projected annual growth rate of the AI market",
+      "evidence_excerpt": "Our forecasting model projects a 23% CAGR for the AI market over the next five years, driven by generative AI.",
+      "topic": "market_growth_rate",
+      "value": "23%"
+    },
+    "metadata": {
+      "agent": "document_analysis_agent",
+      "source": "Analyst_Briefing_Q2_2025.pdf",
+      "source_id": "conflicting_source_2",
+      "source_url": null,
+      "source_type": "document",
+      "document_name": "Analyst_Briefing_Q2_2025.pdf",
+      "publication_date": "2025-05-12",
+      "credibility": 0.84,
+      "confidence": 0.8
+    }
+  },
+  {
+    "claim_id": "source_b_claim_1",
+    "content": {
+      "claim": "Enterprise AI adoption is accelerating",
+      "evidence_excerpt": "A survey of 1,200 firms shows AI budget growth across every sector measured.",
+      "topic": "enterprise_adoption",
+      "value": null
+    },
+    "metadata": {
+      "agent": "document_analysis_agent",
+      "source": "Annual_Industry_AI_Survey_2025.pdf",
+      "source_id": "source_b",
+      "source_url": null,
+      "source_type": "document",
+      "document_name": "Annual_Industry_AI_Survey_2025.pdf",
+      "publication_date": "2025-03-20",
+      "credibility": 0.92,
+      "confidence": 0.88
+    }
+  },
+  {
+    "claim_id": "source_b_claim_2",
+    "content": {
+      "claim": "Talent shortage is the top barrier to AI adoption",
+      "evidence_excerpt": "63% of respondents cited a lack of skilled staff as the primary obstacle to deployment.",
+      "topic": "talent_shortage",
+      "value": null
+    },
+    "metadata": {
+      "agent": "document_analysis_agent",
+      "source": "Annual_Industry_AI_Survey_2025.pdf",
+      "source_id": "source_b",
+      "source_url": null,
+      "source_type": "document",
+      "document_name": "Annual_Industry_AI_Survey_2025.pdf",
+      "publication_date": "2025-03-20",
+      "credibility": 0.92,
+      "confidence": 0.8
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "agent": "document_analysis_agent",
+    "failure_type": "timeout",
+    "attempted_query": "What are the key trends in the enterprise AI market in 2025, and what is the projected annual growth rate of the AI market?",
+    "message": "timeout while analyzing conflicting_source_2",
+    "attempt": 1,
+    "recovered": true,
+    "partial_results": [
+      {
+        "claim_id": "conflicting_source_2_claim_1",
+        "content": {
+          "claim": "Projected annual growth rate of the AI market",
+          "evidence_excerpt": "Our forecasting model projects a 23% CAGR for the AI market over the next five years, driven by generative AI.",
+          "topic": "market_growth_rate",
+          "value": "23%"
+        },
+        "metadata": {
+          "agent": "document_analysis_agent",
+          "source": "Analyst_Briefing_Q2_2025.pdf",
+          "source_id": "conflicting_source_2",
+          "source_url": null,
+          "source_type": "document",
+          "document_name": "Analyst_Briefing_Q2_2025.pdf",
+          "publication_date": "2025-05-12",
+          "credibility": 0.84,
+          "confidence": 0.8
+        }
+      }
+    ],
+    "timestamp": "2026-06-13T23:12:53.601867"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "source_id": "source_b",
+  "source_type": "document",
+  "title": "Annual Industry AI Survey 2025",
+  "url": null,
+  "document_name": "Annual_Industry_AI_Survey_2025.pdf",
+  "publication_date": "2025-03-20",
+  "credibility": 0.92,
+  "assigned_agent": "document_analysis_agent",
+  "claims": [
+    {
+      "topic": "enterprise_adoption",
+      "claim": "Enterprise AI adoption is accelerating",
+      "evidence_excerpt": "A survey of 1,200 firms shows AI budget growth across every sector measured.",
+      "confidence": 0.88
+    },
+    {
+      "topic": "talent_shortage",
+      "claim": "Talent shortage is the top barrier to AI adoption",
+      "evidence_excerpt": "63% of respondents cited a lack of skilled staff as the primary obstacle to deployment.",
+      "confidence": 0.8
+    }
+  ]
+}

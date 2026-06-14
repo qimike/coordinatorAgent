@@ -1,0 +1,19 @@
+{
+  "source_id": "conflicting_source_2",
+  "source_type": "document",
+  "title": "Q2 Analyst Briefing: AI Market Forecast",
+  "url": null,
+  "document_name": "Analyst_Briefing_Q2_2025.pdf",
+  "publication_date": "2025-05-12",
+  "credibility": 0.84,
+  "assigned_agent": "document_analysis_agent",
+  "claims": [
+    {
+      "topic": "market_growth_rate",
+      "claim": "Projected annual growth rate of the AI market",
+      "value": "23%",
+      "evidence_excerpt": "Our forecasting model projects a 23% CAGR for the AI market over the next five years, driven by generative AI.",
+      "confidence": 0.8
+    }
+  ]
+}

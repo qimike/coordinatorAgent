@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-06-13T23:12:54.107827",
+  "total_records": 6,
+  "records_by_agent": {
+    "web_research_agent": 3,
+    "document_analysis_agent": 3
+  },
+  "records": [
+    {
+      "agent": "web_research_agent",
+      "claim_id": "conflicting_source_1_claim_1",
+      "source": "AI Market Growth Outlook (MarketWatch Analysis)",
+      "source_url": "https://marketwatch.example.com/ai-growth-outlook",
+      "publication_date": "2025-05-10",
+      "timestamp": "2026-06-13T23:12:54.107667"
+    },
+    {
+      "agent": "web_research_agent",
+      "claim_id": "source_a_claim_1",
+      "source": "Global AI Market Trends 2025",
+      "source_url": "https://techinsights.example.com/ai-market-2025",
+      "publication_date": "2025-04-15",
+      "timestamp": "2026-06-13T23:12:54.107695"
+    },
+    {
+      "agent": "web_research_agent",
+      "claim_id": "source_a_claim_2",
+      "source": "Global AI Market Trends 2025",
+      "source_url": "https://techinsights.example.com/ai-market-2025",
+      "publication_date": "2025-04-15",
+      "timestamp": "2026-06-13T23:12:54.107703"
+    },
+    {
+      "agent": "document_analysis_agent",
+      "claim_id": "conflicting_source_2_claim_1",
+      "source": "Analyst_Briefing_Q2_2025.pdf",
+      "source_url": null,
+      "publication_date": "2025-05-12",
+      "timestamp": "2026-06-13T23:12:54.107710"
+    },
+    {
+      "agent": "document_analysis_agent",
+      "claim_id": "source_b_claim_1",
+      "source": "Annual_Industry_AI_Survey_2025.pdf",
+      "source_url": null,
+      "publication_date": "2025-03-20",
+      "timestamp": "2026-06-13T23:12:54.107715"
+    },
+    {
+      "agent": "document_analysis_agent",
+      "claim_id": "source_b_claim_2",
+      "source": "Annual_Industry_AI_Survey_2025.pdf",
+      "source_url": null,
+      "publication_date": "2025-03-20",
+      "timestamp": "2026-06-13T23:12:54.107721"
+    }
+  ]
+}
